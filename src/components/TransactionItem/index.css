@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.transaction-item {
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-right: 40px;
+  width: 200px;
+}
+.column1 {
+  font-family: 'roboto';
+  font-size: 12px;
+  margin-right: 30px;
+}
+.column2 {
+  font-family: 'roboto';
+  font-size: 12px;
+  margin-right: 30px;
+}
+.column3 {
+  font-family: 'roboto';
+  font-size: 12px;
+}
+.column4 {
+  margin-right: 40px;
+  margin-left: 30px;
+}
+.button-style {
+  border: 0px none transparent;
+  background-color: transparent;
+}
+.delete-image {
+  height: 20px;
+}
+.items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 220px;
+  margin-right: 120px;
+}
